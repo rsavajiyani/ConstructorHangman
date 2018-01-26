@@ -1,0 +1,23 @@
+{
+  "name": "constructorhangman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^5.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsavajiyani/ConstructorHangman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rsavajiyani/ConstructorHangman/issues"
+  },
+  "homepage": "https://github.com/rsavajiyani/ConstructorHangman#readme"
+}
