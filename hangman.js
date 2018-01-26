@@ -55,12 +55,14 @@ var game =  function() {
 
 }
 
+
+
 var generateWord = function() {
 	word = [];
 	guessesLeft = 10;
-    var spliceAt = Math.floor(Math.random() * wordExport.wordQueue.length);
-    currentWord = wordsImport.wordList[spliceAt];
-    activeWord = wordsImport.wordList.createWord(currentWord);
+    var spliceAt = Math.floor(Math.random() * wordsImport.wordList.length);
+    currentWord = wordsImport.wordBank.wordList[spliceAt];
+    activeWord = wordsImport.wordBank.createdWord(currentWord);
     var index = 0;
     for (var i in activeWord) {
         for (var j = i.length-1; j>-1; j--) {
@@ -74,6 +76,8 @@ var generateWord = function() {
 	
 
 }
+
+generateWord();
 
 var displayWord = function(word) {
     var displayedWord = [];
